@@ -1,5 +1,5 @@
 <template lang="">
-  <section class="px-2 py-14 bg-white md:px-0">
+  <section class="px-2 bg-white md:px-0">
     <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
       <div class="flex flex-wrap items-center sm:-mx-3">
         <div class="w-full md:w-1/2 md:px-3 order-2 lg:order-1">
@@ -23,7 +23,7 @@
             <div class="relative flex flex-col sm:flex-row sm:space-x-4">
               <a
                 href="#"
-                class="flex items-center justify-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-full sm:mb-0 hover:bg-indigo-700 sm:w-auto"
+                class="flex items-center justify-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-full sm:mb-0 hover:bg-indigo-700 sm:w-auto transform hover:scale-105 transition ease-out duration-300"
               >
                 Get Yours Now
                 <font-awesome-icon
@@ -34,7 +34,7 @@
               </a>
               <a
                 href="#"
-                class="flex items-center justify-center px-6 py-3 text-gray-500 hover:text-gray-600"
+                class="flex items-center justify-center px-6 py-3 text-gray-500 hover:text-gray-800 transform hover:scale-105 transition ease-out duration-300"
               >
                 Learn More
               </a>
