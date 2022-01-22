@@ -4,7 +4,7 @@
       <a href="#!">
         <img
           class="rounded-lg"
-          :src="require(`~/assets/img/${data.image}`)"
+          :src="require(`~/assets/img/${data.image || 'roomba-1.jpg'}`)"
           alt="featured-product"
         />
       </a>
