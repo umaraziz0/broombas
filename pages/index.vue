@@ -2,7 +2,9 @@
   <div>
     <Navbar />
     <Hero />
-    <LargeCardDisplay />
+    <div class="container items-center max-w-6xl px-8 mb-14 mx-auto xl:px-5">
+      <LargeCardDisplay />
+    </div>
   </div>
 </template>
 
